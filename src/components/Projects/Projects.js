@@ -8,6 +8,10 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Management from "../../Assets/Projects/Management.png";
+import wenbato from "../../Assets/Projects/wenbatto.png";
+import graph from "../../Assets/Projects/graph.png";
+import saa from "../../Assets/Projects/saa.png";
 
 function Projects() {
   return (
@@ -25,10 +29,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="TinyBlog"
+              description="TinyBlog is a web application to manage one or more blogs. The idea is that a visitor to the website can see the posts and the author of the blog can log on to the site to administer the blog i.e. add, delete or modify posts."
+              ghLink="https://github.com/Wassimkr/TinyBlog"
             />
           </Col>
 
@@ -36,21 +39,60 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Linked List"
+              description="This project implements a simple linked list data structure in Pharo. A linked list is a collection of nodes that are linked together in a linear sequence. Each node contains a value and a reference to the next node in the list."
+              ghLink="https://github.com/Wassimkr/LinkedList"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={wenbato}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Wenbato"
+              description="Wenbato is developing a platform to help people who are looking for accommodations in specific locales , by offering a large variety of accommodations."
+              ghLink="https://github.com/Wassimkr/Wenbato-SOON"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Management}
+              isBlog={false}
+              title="Application Profile & Management Dashboard"
+              description="This project aims to develop an ontology-based model and a management dashboard for microservices-based applications. The ontology-based model captures the entities, relationships, and attributes of the application, which can be used to enhance its scalability, interoperability, and maintainability. The management dashboard provides a user-friendly interface for monitoring and managing the microservices, as well as for analyzing the performance and usage of the application. The project follows a structured approach that includes defining the application profile, developing the ontology-based model, implementing the model in a suitable technology, and developing the management dashboard."
+              ghLink="https://github.com/miloudbagaa/semanticWebApp"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={graph}
+              isBlog={false}
+              title="Graph-Coloring"
+              description="This project implements a graph coloring problem in which we aim to find a valid coloring for a given graph with a minimum number of colors, using optimization methods. Graph coloring is a well-known problem in computer science and optimization, with applications in many fields, including scheduling, map coloring, and register allocation."
+              ghLink="https://github.com/0xdia/graph-coloring"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={saa}
+              isBlog={false}
+              title="Saa-Biskra"
+              description="Saa-Biskra is a web application to manage the clients profiles, store their information, display information... Developed using React.js and Firebase."
+              ghLink="https://github.com/Wassimkr/saa-assurance"
+              demoLink="https://saa-assurance.web.app/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Implementation of a Kubernetes cluster"
+              description="In this project I putted two web applications in a container. Then I developed a Kubernetes cluster."
             />
           </Col>
 
@@ -58,33 +100,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Se7ati"
+              description="In this project I have developped a mobile application for managing the health of users to protect them from the corona virus epedimy. The application provides a statistics, advices, form to contact the hospitals..."
+              ghLink="https://github.com/zinef/Se7ti"
             />
           </Col>
         </Row>

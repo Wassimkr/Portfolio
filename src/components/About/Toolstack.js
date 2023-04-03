@@ -6,7 +6,13 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
+  SiJupyter,
+  SiOverleaf,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+  SiAdobexd,
 } from "react-icons/si";
+import { AiFillWindows } from "react-icons/ai";
 
 function Toolstack() {
   return (
@@ -15,16 +21,28 @@ function Toolstack() {
         <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <AiFillWindows />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <h1>Protege</h1>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiJupyter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiOverleaf />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobephotoshop />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobeillustrator />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobexd />
       </Col>
     </Row>
   );

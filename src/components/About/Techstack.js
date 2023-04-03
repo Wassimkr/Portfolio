@@ -8,21 +8,27 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiDocker,
 } from "react-icons/di";
 import {
-  SiPytorch,
+  SiAzuredevops,
   SiFirebase,
-  SiNextdotjs,
+  SiSemanticweb,
+  SiKubernetes,
 } from "react-icons/si";
+import { AiFillCloud } from "react-icons/ai";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        Pharo
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -34,7 +40,7 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <h1>Seaside</h1>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -43,10 +49,19 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiAzuredevops />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <AiFillCloud />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSemanticweb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
       </Col>
     </Row>
   );
