@@ -11,6 +11,11 @@ import {
   SiAdobephotoshop,
   SiAdobeillustrator,
   SiAdobexd,
+  SiAnaconda,
+  SiSlack,
+  SiTrello,
+  SiJira,
+  SiArduino,
 } from "react-icons/si";
 import { AiFillWindows } from "react-icons/ai";
 
@@ -27,13 +32,28 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiArduino />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <h1>Protege</h1>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJupyter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiAnaconda />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiOverleaf />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSlack />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTrello />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJira />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobephotoshop />
