@@ -15,34 +15,26 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a final year student at the Higher School of Computer Science
-              at ESI (ex. INI) Algiers, Algeria, specializing in computer
-              systems.
+              As a recent{" "}
+              <span className="purple">
+                Master’s graduate in Computer Science Engineering
+              </span>
+              , on the cusp of completing my final project and just a few weeks
+              away from officially graduating, I am currently in the process of
+              obtaining my{" "}
+              <span className="purple">state engineering degree</span>. My
+              journey is underpinned by a robust academic background,
+              complemented by a wealth of experience garnered from diverse
+              internships and projects.
               <br />
-              <br /> I have a strong passion for{" "}
-              <i>
-                <b className="purple"> object-oriented programming </b>
-              </i>{" "}
-              and a wide range of{" "}
-              <i>
-                <b className="purple"> programming languages. </b>
-              </i>
-              <br />
-              <br />
-              Throughout my academic career, I have developed a strong
-              foundation in{" "}
-              <b className="purple">software engineering principles</b>,
-              including{" "}
-              <b className="purple">agile development methodologies</b> and{" "}
-              <b className="purple">continuous integration and delivery.</b>
-              <br />
-              <br />I have gained valuable experience in{" "}
-              <b className="purple">designing, building, and deploying</b>{" "}
-              automated infrastructure solutions to support software development
-              teams. I enjoy collaborating with developers and other
-              stakeholders to optimize{" "}
-              <b className="purple">software development workflows</b> and
-              improve product delivery.
+              <br />I am enthusiastically seeking an engaging role that fuels my
+              appetite for continuous learning and personal development. With a
+              skill set honed through practical experiences, my aim is to
+              contribute substantially within a dynamic team environment while
+              collaborating closely with seasoned professionals. Drawing upon my
+              accumulated knowledge and a proven track record of successful
+              project execution, I am uniquely positioned to make a meaningful
+              and positive impact in my forthcoming position.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
