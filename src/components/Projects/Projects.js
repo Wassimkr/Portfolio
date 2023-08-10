@@ -29,6 +29,17 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
+              title="Home Automation"
+              description="This project is a home automation system designed to empower users with seamless control over all their household
+              devices using voice commands through a mobile application. The implementation utilizes a combination of Adruino, Java, Spring Boot, and
+              IoT devices to create a cohesive and efficient solution."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
               title="TinyBlog"
               description="TinyBlog is a web application to manage one or more blogs. The idea is that a visitor to the website can see the posts and the author of the blog can log on to the site to administer the blog i.e. add, delete or modify posts."
               ghLink="https://github.com/Wassimkr/TinyBlog"
@@ -42,6 +53,18 @@ function Projects() {
               title="Linked List"
               description="This project implements a simple linked list data structure in Pharo. A linked list is a collection of nodes that are linked together in a linear sequence. Each node contains a value and a reference to the next node in the list."
               ghLink="https://github.com/Wassimkr/LinkedList"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Implementation of a VPN/MPLS plateform"
+              description="As part of our strategic infrastructure enhancement, we have successfully established Virtual
+              Private Networks (VPNs) and Multi‑Protocol Label Switching (MPLS) connections between six remote sites of the company. The primary objective
+              behind implementing these networking solutions was to ensure heightened confidentiality and sustained accessibility to the company’s critical
+              data."
             />
           </Col>
 
@@ -61,7 +84,6 @@ function Projects() {
               isBlog={false}
               title="Application Profile & Management Dashboard"
               description="This project aims to develop an ontology-based model and a management dashboard for microservices-based applications. The ontology-based model captures the entities, relationships, and attributes of the application, which can be used to enhance its scalability, interoperability, and maintainability. The management dashboard provides a user-friendly interface for monitoring and managing the microservices, as well as for analyzing the performance and usage of the application. The project follows a structured approach that includes defining the application profile, developing the ontology-based model, implementing the model in a suitable technology, and developing the management dashboard."
-              ghLink="https://github.com/miloudbagaa/semanticWebApp"
             />
           </Col>
 
